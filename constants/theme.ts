@@ -9,12 +9,12 @@ const COLORS: { [key: string]: string } = {
 
 const USER_COLORS: { [key: number]: string } = {
   1: '#FF5733',
-  2: '#33FF57',
+  2: '#FFBD33',
   3: '#3357FF',
   4: '#FF33A6',
   5: '#33FFF5',
-  6: '#FFBD33',
-  7: '#8D33FF',
+  6: '#8D33FF',
+  7: '#33FF57',
   8: '#FF5733', 
   9: '#33FFBD',
   10: '#FF33F6',
