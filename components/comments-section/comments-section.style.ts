@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     alignItems: "flex-start",
     backgroundColor: "transparent",
     paddingHorizontal: SIZES.small,
-    paddingTop: SIZES.small
+    paddingTop: SIZES.large
   },
 });
 

@@ -11,8 +11,8 @@ const styles = StyleSheet.create({
     borderRadius: SIZES.medium,
   },
   textContainer: {
-    width: Dimensions.get('window').width * 0.678,
-    backgroundColor: COLORS.grey, 
+    width: Dimensions.get('window').width * 0.8,
+    backgroundColor: COLORS.lightGrey, 
     borderRadius: SIZES.medium,
     paddingHorizontal: SIZES.large,
     paddingVertical: SIZES.small,

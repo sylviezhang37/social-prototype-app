@@ -3,8 +3,8 @@ const COLORS: { [key: string]: string } = {
   black: '#000000',
   purple: '#8259F6',
   lightPurple: '#CCBAFF',
-  grey: "#FAFAFA",
-  lightGrey: "DEDEDE"
+  grey: "#ECECEC",
+  lightGrey: "#FAFAFA"
 };
 
 const USER_COLORS: { [key: number]: string } = {

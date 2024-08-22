@@ -54,28 +54,33 @@ const PostPage = () => {
   }, []);
 
   return (
-    <ScrollView style={{ flex: 1, backgroundColor: COLORS.white }}>
+    <View style={{ flex: 1, backgroundColor: COLORS.white }}>
       <HeaderBtn uri={left} onPress={() => router.back()} />
 
-      {loading ? (
-        <ActivityIndicator size="large" color={COLORS.purple} />
-      ) : error ? (
-        <Text> Unable to load post details and comments: {error!.message}</Text>
-      ) : (
-        <>
-          <PostCard
-            title={post!.title}
-            body={post!.body}
-            userId={post!.userId}
-            userName={user!.username}
-          />
+      <ScrollView>
+        {loading ? (
+          <ActivityIndicator size="large" color={COLORS.purple} />
+        ) : error ? (
+          <Text>
+            {" "}
+            Unable to load post details and comments: {error!.message}
+          </Text>
+        ) : (
+          <>
+            <PostCard
+              title={post!.title}
+              body={post!.body}
+              userId={post!.userId}
+              userName={user!.username}
+            />
 
-          <View style={appstyles.divider} />
+            <View style={appstyles.divider} />
 
-          <CommentsSection comments={comments} />
-        </>
-      )}
-    </ScrollView>
+            <CommentsSection comments={comments} />
+          </>
+        )}
+      </ScrollView>
+    </View>
   );
 };
 
