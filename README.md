@@ -14,3 +14,10 @@
   <img src="https://github.com/user-attachments/assets/093836b1-f18a-425c-b080-bf74b7b618ba" alt="Simulator Screenshot 1" width="25%" />
   <img src="https://github.com/user-attachments/assets/77e52f26-c31a-4baa-8045-fd834f365942" alt="Simulator Screenshot 2" width="25%" />
 </p>
+
+### Program UML
+
+<p>
+  <img src="https://github.com/user-attachments/assets/5a87dd18-74ce-43ac-823e-3ca9160712df" alt="UML" width="100%" />
+</p>
+
